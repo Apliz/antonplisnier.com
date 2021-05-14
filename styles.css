@@ -1,0 +1,35 @@
+
+@font-face {font-family: "Oranienbaum"; src: url(./src/Oranienbaum-Regular.ttf)}
+
+body, h1 {
+  font-family: Oranienbaum;
+  margin: 0px;
+}
+
+body {
+  background-color: #2e294e;
+
+}
+
+#Main-Content {
+  background-color: #548687;
+  width: 50vh;
+  text-align: center;
+  height: 50vh;
+  margin: 0 auto;
+  margin-top: 25vh;
+  box-shadow: 10px 10px 25px 3px rgb(0 0 0 / 75%);
+}
+
+#Main-Content > h1 {
+  padding-top: 1em;
+}
+
+
+
+#Main-Content > img {
+  margin: 0 auto;
+  display: block;
+  width: 70%;
+  height: auto;
+}
